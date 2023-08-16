@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Motorsport Racing Store</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        /* Main content container */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Product item styles */
+        .product {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            width: calc(50% - 20px);
+            margin: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        /* User navigation styles */
+        .user-nav {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .user-nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            border-radius: 20px;
+            padding: 5px 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .user-nav a:hover {
+            background-color: white;
+            color: #333;
+        }
+
+        .user-nav a.cart-button {
+            background-color: #ff4500;
+        }
+
+        /* Cart icon */
+        .cart-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: #ff4500;
+            color: white;
+            text-align: center;
+            line-height: 20px;
+            border-radius: 50%;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>F1 Motorsport Racing Store</h1>
+        <p>Explore a wide range of F1 racing merchandise.</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <div class="user-nav">
+            <a href="#">Sign In</a>
+            <a href="#" class="cart-button">
+                Cart
+                <span class="cart-icon">0</span>
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="product">
+            <h2>Ferrari Merchandise</h2>
+            <img src="https://store.ferrari.com/content/images/cms/ycm/resource/blob/734548/f859a755bbb998f764271de07a9f95f7/store-focus-media-pic-miami-data.jpg/w1280.jpg" alt="Ferrari Store">
+            <p>Discover our exclusive collection of Ferrari F1 team merchandise, including caps, shirts, and more.</p>
+            <a href="ferrari.html"><button>View Details</button></a>
+        </div>
+        <div class="product">
+            <h2>Red Bull Merchandise</h2>
+            <img src="https://assets.redbullshop.com/content/STORES/redbullword_salzburg1.jpg" alt="Red Bull Store">
+            <p>Show your support for Red Bull Racing with our range of Red Bull F1 apparel and accessories.</p>
+            <a href="redbull.html"><button>View Details</button></a>
+        </div>
+    </div>
+</body>
+</html>
 
